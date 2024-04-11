@@ -4,6 +4,7 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import LoadMoreData from "./components/load-more-data";
 import SideMenutree from './components/side-menu-tree';
+import LightDarkTheme from "./components/light-dark-mode"
 
 function App() {
 
@@ -22,7 +23,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Side Menu Tree Component */}
-      <SideMenutree />
+      {/* <SideMenutree /> */}
+
+      {/* Light Dark Theme Toggle */}
+      <LightDarkTheme />
     </>
   )
 }
