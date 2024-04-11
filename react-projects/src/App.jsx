@@ -5,6 +5,7 @@ import StarRating from "./components/star-rating";
 import LoadMoreData from "./components/load-more-data";
 import SideMenutree from './components/side-menu-tree';
 import LightDarkTheme from "./components/light-dark-mode"
+import ScrollIndicator from './components/scroll-indicator';
 
 function App() {
 
@@ -26,7 +27,10 @@ function App() {
       {/* <SideMenutree /> */}
 
       {/* Light Dark Theme Toggle */}
-      <LightDarkTheme />
+      {/* <LightDarkTheme /> */}
+
+      {/* Light Dark Theme Toggle */}
+      <ScrollIndicator />
     </>
   )
 }
