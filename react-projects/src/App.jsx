@@ -6,6 +6,7 @@ import LoadMoreData from "./components/load-more-data";
 import SideMenutree from './components/side-menu-tree';
 import LightDarkTheme from "./components/light-dark-mode"
 import ScrollIndicator from './components/scroll-indicator';
+import CustomTabs from "./components/tabs";
 
 function App() {
 
@@ -30,7 +31,10 @@ function App() {
       {/* <LightDarkTheme /> */}
 
       {/* Light Dark Theme Toggle */}
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+
+      {/* Custom Tabs Component */}
+      <CustomTabs />
     </>
   )
 }
