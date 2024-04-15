@@ -7,6 +7,7 @@ import SideMenutree from './components/side-menu-tree';
 import LightDarkTheme from "./components/light-dark-mode"
 import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from "./components/tabs";
+import UserProfileFinder from './components/github-profile-finder';
 
 function App() {
 
@@ -34,7 +35,10 @@ function App() {
       {/* <ScrollIndicator /> */}
 
       {/* Custom Tabs Component */}
-      <CustomTabs />
+      {/* <CustomTabs /> */}
+
+      {/* User Profile Finder Component */}
+      <UserProfileFinder />
     </>
   )
 }
