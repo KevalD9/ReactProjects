@@ -8,6 +8,7 @@ import LightDarkTheme from "./components/light-dark-mode"
 import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from "./components/tabs";
 import UserProfileFinder from './components/github-profile-finder';
+import SearchAutoComplete from './components/search-autocomplete-with-api';
 
 function App() {
 
@@ -38,7 +39,10 @@ function App() {
       {/* <CustomTabs /> */}
 
       {/* User Profile Finder Component */}
-      <UserProfileFinder />
+      {/* <UserProfileFinder /> */}
+
+      {/* Search Auto Complete with API component*/}
+      <SearchAutoComplete />
     </>
   )
 }
