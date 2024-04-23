@@ -9,6 +9,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from "./components/tabs";
 import UserProfileFinder from './components/github-profile-finder';
 import SearchAutoComplete from './components/search-autocomplete-with-api';
+import TicTacToe from './components/tic-tact-toe';
 
 function App() {
 
@@ -42,7 +43,10 @@ function App() {
       {/* <UserProfileFinder /> */}
 
       {/* Search Auto Complete with API component*/}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      {/* Tic Tac Toe Game*/}
+      <TicTacToe />
     </>
   )
 }
