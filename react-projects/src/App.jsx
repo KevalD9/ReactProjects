@@ -10,6 +10,8 @@ import CustomTabs from "./components/tabs";
 import UserProfileFinder from './components/github-profile-finder';
 import SearchAutoComplete from './components/search-autocomplete-with-api';
 import TicTacToe from './components/tic-tact-toe';
+import FeatureFlag from './components/feature-flag';
+import FeatureFlagGlobalState from './components/feature-flag/context';
 
 function App() {
 
@@ -46,7 +48,12 @@ function App() {
       {/* <SearchAutoComplete /> */}
 
       {/* Tic Tac Toe Game*/}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag Component Using Context*/}
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </>
   )
 }
