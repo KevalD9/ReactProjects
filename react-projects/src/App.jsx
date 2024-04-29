@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 import Accordian from "./components/accordin";
 import RandomColor from "./components/random-color";
@@ -46,8 +47,6 @@ function App() {
       {/* <ScrollToTopBottom /> */}
 
       <ScrollToSection/>
-
-
 
       {/* Custom Tabs Component */}
       {/* <CustomTabs /> */}
