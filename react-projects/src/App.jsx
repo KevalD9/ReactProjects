@@ -15,6 +15,8 @@ import FeatureFlagGlobalState from './components/feature-flag/context';
 import UseFetchHookTest from './components/useFetch/test';
 import UseOutsideClickTest from './components/useOutsideClick/test';
 import UseWindowResizeTest from './components/useWindowResize/test';
+import ScrollToTopBottom from './components/scroll-indicator/scrollToTopBottom';
+import ScrollToSection from './components/scroll-indicator/scrollToSection';
 
 function App() {
 
@@ -38,8 +40,14 @@ function App() {
       {/* Light Dark Theme Toggle */}
       {/* <LightDarkTheme /> */}
 
-      {/* Light Dark Theme Toggle */}
+      {/* Scroll Indicator Percentage Component */}
       {/* <ScrollIndicator /> */}
+
+      {/* <ScrollToTopBottom /> */}
+
+      <ScrollToSection/>
+
+
 
       {/* Custom Tabs Component */}
       {/* <CustomTabs /> */}
@@ -65,7 +73,7 @@ function App() {
       {/* <UseOutsideClickTest/> */}
 
       {/* useWindowResize Hook Example */}
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
     </>
   )
 }
